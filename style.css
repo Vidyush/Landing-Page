@@ -5,8 +5,8 @@
 
 .banner{
   background-color:blue;
-  height: 50vh;
-  min-height: 600px;
+  height: 60vh;
+  min-height: 800px;
   background-image:url('https://i.ibb.co/HNvHSyV/image-header.jpg');
   background-position: center top;
   background-size: cover;
@@ -65,7 +65,7 @@
 
 .section1{
   display: flex;
-  height:450px;
+  height:650px;
 }
 
 .section1 img{
@@ -112,7 +112,7 @@ cursor: pointer;
 
 .section2{
   display: flex;
-  height:450px;
+  height:650px;
 }
 
 .section2 img{
@@ -155,7 +155,7 @@ cursor: pointer;
 
 .section3{
   display: flex;
-  height:450px;
+  height:650px;
 }
 
 .section3 img{
@@ -254,4 +254,5 @@ cursor: pointer;
 }
 .footer-navigation span{
   padding:8px;
+  cursor: pointer;
 }
