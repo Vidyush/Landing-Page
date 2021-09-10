@@ -12,5 +12,5 @@ jobs:
       - name: PR checker
         uses: ryanvade/enforce-pr-title-style-action@v1
         with:
-            projectKey: REL|CGT
+            projectKey: REL
       - run: echo "🍏 This job's status is ${{ job.status }}."
