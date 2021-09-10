@@ -12,5 +12,6 @@ jobs:
       - name: PR checker
         uses: deepakputhraya/action-pr-title@master
         with:
-         allowed_prefixes: '[REL],[CGT]' # title should start with the given prefix
+         allowed_prefixes: 'REL-,CGT-,PLATFORM-' # title should start with the given prefix
+         prefix_case_sensitive: True
       - run: echo "🍏 This job's status is ${{ job.status }}."
